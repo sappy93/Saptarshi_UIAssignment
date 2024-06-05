@@ -1,0 +1,34 @@
+/* Font size */
+$font-size-xxs: 12px;
+$font-size-xs: 14px;
+$font-size-sm: 16px;
+$font-size-md: 18px;
+$font-size-xl: 20px;
+$font-size-xxl: 24px;
+
+/* Padding */
+$navbar-padding-y: 19px;
+$navbar-padding-x: 0px;
+
+/* Colors */
+$brand-color-primary: #fff;
+$brand-color-secondary: #002133;
+$hover-color:#0062b2;
+$box-shadow-color: rgba(0,0,0,.15);
+
+// Icons
+
+$icon-size:                     3rem !default;
+$icon-size-xl:                  5rem !default;
+$icon-size-lg:                  4rem !default;
+$icon-size-sm:                  2rem !default;
+$icon-size-xs:                  1.25rem !default;
+
+$icon-border-width:             3px !default;
+
+$icon-bg-level:                 -70% !default;
+
+:root {
+    --custom-navbar-padding-y: #{$navbar-padding-y};
+    --custom-navbar-padding-x: #{$navbar-padding-x};
+}
