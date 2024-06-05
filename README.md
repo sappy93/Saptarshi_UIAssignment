@@ -28,13 +28,13 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
 
-    git clone https://github.com/sappy93/Saptarshi-UIAssignment.git
+    git clone https://github.com/sappy93/Saptarshi_UIAssignment
 
     Goto Saptarshi-UIAssignment Folder
 
-    To install dependencies: npm install
+    Changing .evn.development.demo to .env.development
 
-    Change .env.development.demo to .env.development
+    To install dependencies: npm install
 
     To run app: npm start
 
@@ -43,7 +43,8 @@ To get started with the project, follow these steps:
 
 Reward Demo
 
-Credentials:
+Credentials: 
+
     Test User1:
     User name: C001
     Password: password1
