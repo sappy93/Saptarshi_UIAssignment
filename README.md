@@ -53,6 +53,10 @@ Credentials:
     User name: C002
     Password: password2
 
+    Test Admin:
+    User name: admin
+    Password: password3
+
 
 ## Running Tests
 
@@ -62,4 +66,5 @@ Credentials:
 
     React
     Redux
+    jest
     Mock API

@@ -33,24 +33,24 @@ const Header = ()=>{
             <li className="nav-item">
               <Link to={'/'} className="nav-link active">Home</Link>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Company
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">About Company</a></li>
-                    <li><a class="dropdown-item" href="#">Leadership</a></li>
-                    <li><a class="dropdown-item" href="#">History</a></li>
+                <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">About Company</a></li>
+                    <li><a className="dropdown-item" href="#">Leadership</a></li>
+                    <li><a className="dropdown-item" href="#">History</a></li>
                 </ul>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Newsroom
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Letest News</a></li>
-                    <li><a class="dropdown-item" href="#">Media Nibrary</a></li>
-                    <li><a class="dropdown-item" href="#">Media Contacts</a></li>
+                <ul className="dropdown-menu">
+                    <li><a className="dropdown-item" href="#">Letest News</a></li>
+                    <li><a className="dropdown-item" href="#">Media Nibrary</a></li>
+                    <li><a className="dropdown-item" href="#">Media Contacts</a></li>
                 </ul>
             </li>
           </ul>

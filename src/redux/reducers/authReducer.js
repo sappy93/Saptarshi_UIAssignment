@@ -2,7 +2,7 @@ import { LOGIN_REQUEST, LOGIN_SUCCESS, LOGIN_FAILURE, LOGOUT } from '../actions/
 
 const initialState = {
   isAuthenticated: localStorage.getItem('isAuthenticated') === 'true',
-  user: null,
+  user: localStorage.getItem('customerToken')? { username: localStorage.getItem('customerToken') }: null,
   status: 'idle',
   error: null,
 };

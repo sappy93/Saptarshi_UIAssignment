@@ -21,6 +21,11 @@ export const login = (credentials) => {
                 dispatch({ type: LOGIN_SUCCESS, payload: { username: 'C002' } });
                 localStorage.setItem('isAuthenticated', true);
                 localStorage.setItem('customerToken', 'C002');
+          }else if (credentials.username === 'admin' && credentials.password === 'password3') {
+            resolve({ username: 'admin' });
+            dispatch({ type: LOGIN_SUCCESS, payload: { username: 'admin' } });
+            localStorage.setItem('isAuthenticated', true);
+            localStorage.setItem('customerToken', 'admin');
           } else {
             reject('Invalid credentials');
           }
